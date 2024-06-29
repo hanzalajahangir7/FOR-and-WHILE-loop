@@ -62,3 +62,54 @@
 //     console.log(i)
 //     i++
 // }
+
+
+
+// one by one printing names
+// let bcc:string[]=["hanzala","asad","saad"]
+// for (let name of bcc){
+//     console.log(name)
+// }
+
+
+// for each loop
+
+// 1st method
+// let bcc:string[]=["hanzala","asad","saad"]
+
+// bcc.forEach(bcc => {
+//     console.log(`hello there how are you ${bcc}`)
+// });
+
+// 2nd method
+// bcc.forEach((value,index,array)=>{
+//     console.log(value,index,array)
+// })
+
+// let i = 0
+
+
+// // breaking loop
+// for(let i=0; i <= 6; i++){
+//     if(i === 5){
+//         break;
+//     }
+//     console.log(i)
+// }
+
+// // continue loop
+// for(let i=0; i <= 6; i++){
+//     if(i === 5){
+//         continue;
+//     }
+//     console.log(i)
+// }
+
+// do while loop
+
+// let i = 0
+// do{
+//     i++
+//     console.log(i)
+// }
+// while(i<5)
